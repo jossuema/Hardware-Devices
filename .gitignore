@@ -1,0 +1,39 @@
+# Compilación general y archivos temporales
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+*.d
+*.lst
+*.lss
+*.axf
+*.srec
+*.syms
+
+# Directorios de compilación
+/build/
+/out/
+/bin/
+/obj/
+/dist/
+/Debug/
+/Release/
+
+# Archivos de configuración de IDEs
+# Para Atmel Studio
+*.atsuo
+*.atsuo
+
+# Para MPLAB X IDE
+nbproject/private/
+nbbuild/
+dist/
+nbproject/Makefile-*
+
+# Para IAR Embedded Workbench
+*.ewt
+*.ewp
+*.ewd
