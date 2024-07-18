@@ -1,39 +1,76 @@
 # Compilación general y archivos temporales
-*.o
-*.obj
-*.elf
-*.bin
-*.hex
-*.map
-*.out
-*.d
-*.lst
-*.lss
-*.axf
-*.srec
-*.syms
+**/*.o
+**/*.obj
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.map
+**/*.out
+**/*.d
+**/*.lst
+**/*.lss
+**/*.axf
+**/*.srec
+**/*.syms
 
 # Directorios de compilación
-/build/
-/out/
-/bin/
-/obj/
-/dist/
-/Debug/
-/Release/
+**/build/
+**/out/
+**/bin/
+**/obj/
+**/dist/
+**/Debug/
+**/Release/
 
 # Archivos de configuración de IDEs
 # Para Atmel Studio
-*.atsuo
-*.atsuo
+**/*.atsuo
+**/*.atsuo
 
 # Para MPLAB X IDE
-nbproject/private/
-nbbuild/
-dist/
-nbproject/Makefile-*
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbproject/Makefile-*
 
 # Para IAR Embedded Workbench
-*.ewt
-*.ewp
-*.ewd
+**/*.ewt
+**/*.ewp
+**/*.ewd
+**/*.eww
+**/*.dep
+**/*.ewlog
+**/*.linkdep
+**/settings/
+
+# Para Keil uVision
+**/*.uvoptx
+**/*.uvprojx
+**/*.uvguix
+**/*.lnp
+
+# Archivos generados por Code Composer Studio
+**/*.cproject
+**/*.project
+**/*.launches/
+**/*.settings/
+
+# Archivos generados por Arduino IDE
+**/*.ino.*
+**/*.arduino.*
+**/*.arduino
+
+# Archivos generados por PlatformIO
+**/.pio/
+**/.vscode/
+
+# Archivos generados por Visual Studio Code
+**/.vscode/
+**/*.code-workspace
+
+# Archivos de log
+**/*.log
+
+# Archivos de configuración del sistema
+**/.DS_Store
+**/Thumbs.db
